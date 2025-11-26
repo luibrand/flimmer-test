@@ -77,7 +77,7 @@ export const HookScreen: React.FC<HookScreenProps> = ({ onAccept, onDecline, onB
               <Text style={styles.channelLogoEmoji}>👧</Text>
             </View>
           <View style={styles.videoTextInfo}>
-            <Text style={styles.videoTitle}>Fantastiske Håndstående!</Text>
+            <Text style={styles.videoTitle}>Fantastisk at stå på hænder!</Text>
             <Text style={styles.videoCreator}>Sarah & Venner</Text>
           </View>
           </View>
@@ -173,9 +173,9 @@ export const HookScreen: React.FC<HookScreenProps> = ({ onAccept, onDecline, onB
           </View>
         </ScrollView>
 
-        <Text style={styles.challengeTitle}>Kan du lave håndstående sådan her?</Text>
+        <Text style={styles.challengeTitle}>Kan du stå på hænder sådan her?</Text>
         <Text style={styles.challengeSubtitle}>
-          Vis dit bedste håndstående og tjen stjerner! ⭐
+          Vis hvordan du bedst kan stå på hænder og tjen stjerner! ⭐
         </Text>
 
         <TouchableOpacity style={styles.primaryButton} onPress={onAccept}>

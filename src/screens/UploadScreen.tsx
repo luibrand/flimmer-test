@@ -58,7 +58,7 @@ export const UploadScreen: React.FC<UploadScreenProps> = ({ onComplete }) => {
           }
         ]}
       >
-        <Text style={styles.title}>Sender dit håndstående…</Text>
+        <Text style={styles.title}>Sender dit billede…</Text>
         <Text style={styles.subtitle}>Sikkerhedstjek af din video 👀</Text>
 
         <View style={styles.progressContainer}>

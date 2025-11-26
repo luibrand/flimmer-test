@@ -72,7 +72,7 @@ export const PhotoConfirmationScreen: React.FC<PhotoConfirmationScreenProps> = (
           {/* Photo Preview */}
           <View style={styles.photoPreview}>
             <Text style={styles.photoEmoji}>🤸</Text>
-            <Text style={styles.photoLabel}>Dit håndstående!</Text>
+            <Text style={styles.photoLabel}>Sådan stod du på hænder!</Text>
           </View>
 
           {/* Privacy Question */}
