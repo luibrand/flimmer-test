@@ -1,4 +1,16 @@
-# Flimmer test
+# Flimmer Challenge Flow
+
+## 📱 App Screenshots
+
+<p align="center">
+  <img src="screenshots/1-camera.png" width="200" alt="Camera Screen" />
+  <img src="screenshots/2-challenge.png" width="200" alt="Challenge Screen" />
+  <img src="screenshots/3-uploading.png" width="200" alt="Uploading" />
+  <img src="screenshots/4-success.png" width="200" alt="Success Modal" />
+  <img src="screenshots/5-share.png" width="200" alt="Share Screen" />
+</p>
+
+---
 
 ## 🐙 System Design: Child-Safe Content Moderation
 
