@@ -3,7 +3,7 @@
 ## 🐙 System Design: Child-Safe Content Moderation
 
 ### Database Schema: UserChallengeSubmission
-.
+
 ```
 UserChallengeSubmission {
   id: UUID (primary key)
@@ -91,11 +91,4 @@ UserChallengeSubmission {
 20. **Auto-hide threshold**: If `reportCount` > 3, automatically set `isHidden: true` and re-queue for review
 21. **Periodic re-scan**: Random sampling of approved content for quality checks
 22. **Takedown**: Rejected content deleted from storage after 30 days
-
-### Key Safety Principles
-- **Default deny**: Content is private until explicitly approved
-- **Defense in depth**: Multiple layers (AI + human + community reporting)
-- **Audit trail**: All moderation decisions logged with timestamps and moderator IDs
-- **Fast feedback**: Users notified within 1 hour of submission status
-- **Privacy**: Failed submissions never exposed publicly, deleted after retention period
 
