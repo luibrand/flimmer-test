@@ -1,6 +1,8 @@
 # Flimmer Challenge Flow
 
 ## 📱 App Screenshots
+<img width="3085" height="1266" alt="Frame 9826" src="https://github.com/user-attachments/assets/2e21b548-dda8-4d0c-82f6-3872c80285af" />
+
 
 ---
 
